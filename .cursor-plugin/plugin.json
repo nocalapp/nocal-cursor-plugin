@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Cursor plugin for nocal – search, create, and edit your notes from AI chat",
   "author": {
-    "name": "Nocal",
+    "name": "nocal",
     "email": "hello@nocal.app",
     "url": "https://nocal.app"
   },
+  "homepage": "https://nocal.app/docs/mcp",
   "keywords": ["nocal", "notes", "mcp", "productivity", "second-brain"],
   "logo": "logo.svg",
   "primaryColor": "#3B82F6"

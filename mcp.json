@@ -1,0 +1,9 @@
+{
+  "nocal": {
+    "url": "https://api.nocal.app/mcp",
+    "transport": "http",
+    "headers": {
+      "Authorization": "Bearer ${input:NOCAL_TOKEN}"
+    }
+  }
+}

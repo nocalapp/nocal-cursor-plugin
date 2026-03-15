@@ -1,7 +1,7 @@
 {
   "name": "nocal-cursor-plugin",
   "version": "1.0.0",
-  "description": "Cursor plugin for Nocal – search, create, and edit your notes from AI chat",
+  "description": "Cursor plugin for nocal – search, create, and edit your notes from AI chat",
   "author": {
     "name": "Nocal",
     "email": "hello@nocal.app",

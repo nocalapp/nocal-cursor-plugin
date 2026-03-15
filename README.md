@@ -51,6 +51,29 @@ Once connected, ask Cursor's AI to interact with your notes:
 | `notes_create` | Create a new note |
 | `notes_patch` | Apply targeted edits to a note (with conflict handling) |
 
+## AGENTS.md example
+
+To have Cursor automatically log meaningful work to nocal, add something like this to your `AGENTS.md`:
+
+```markdown
+## Change logging
+
+You have access to nocal via MCP. Use it to keep a running dev log.
+
+When you begin a meaningfully new or different chunk of work — a new feature,
+a significant refactor, a bug fix, a direction change — do the following:
+
+1. Search for a note titled "Dev log – [today's date]" using `notes_search`.
+2. If it exists, append a brief entry with `notes_patch`:
+   - What you're about to do and why
+   - Any key decisions or tradeoffs made
+3. If it doesn't exist, create it with `notes_create`.
+
+Keep entries short (2–4 lines). Only log new directions — not every small step
+within the same task. The goal is a scannable record of what changed and why,
+not a transcript of every action.
+```
+
 ## Support
 
 - **nocal:** [nocal.app](https://nocal.app)
